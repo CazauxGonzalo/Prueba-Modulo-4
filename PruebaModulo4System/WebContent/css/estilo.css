@@ -1,0 +1,114 @@
+body{
+	margin: 0%;
+	background-color: #efefef;
+	
+}
+
+.header{
+	text-align: center;
+	background-color: #8d94de ;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.contenedorFirst{	
+	
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-top: 2%;
+}
+
+.contenedor{
+	
+	float: left;
+	padding-left: 3%;
+	text-align: left;
+	
+}
+
+.contenedor h2{
+	
+	padding-bottom: 3%;
+}
+
+li{
+	padding-bottom: 3%;
+}
+
+footer{
+	clear:both;
+	background-color: #8d8d8d;
+	margin-left: 0%;
+	margin-right: 0%;
+	
+}
+
+footer .footer1{
+	float: left;
+	margin-left:2%; 
+	
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.formularioInicio{
+	background-color: gray;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top:10%;
+	padding: 2%;
+	text-align: center;
+}
+
+.allHeader{
+	background-color: black;
+	color:white;
+}
+
+.allHeader h1{
+	text-align: center;
+	
+}
+
+.cerrarsession{
+	text-align: right;
+	padding-top:2%;
+	margin-right: 2%;
+	
+}
+
+.enlaces{
+	margin-left: 3%;
+	padding-top: 3%;
+	
+}
+
+.confirmacion{
+	color:green;
+	margin-left: 40%;
+	margin-top: 20%;
+	
+	
+}
+
+.error{
+	color:red;
+	margin-left: 40%;
+	margin-top: 20%;
+	
+	
+}
