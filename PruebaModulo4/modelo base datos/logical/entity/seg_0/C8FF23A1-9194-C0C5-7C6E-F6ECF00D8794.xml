@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8FF23A1-9194-C0C5-7C6E-F6ECF00D8794" name="PagoSol">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:30:03 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPago" id="AB288BD4-5337-2139-C347-D4E987E72B32">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:30:15 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombPago" id="8613A182-9E6B-CA74-89C5-CA656A20F2E4">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:30:43 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA0DD90D-0B3F-B2E1-5FD7-97AE5B94C5A2" name="PagoSol PK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:30:42 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB288BD4-5337-2139-C347-D4E987E72B32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

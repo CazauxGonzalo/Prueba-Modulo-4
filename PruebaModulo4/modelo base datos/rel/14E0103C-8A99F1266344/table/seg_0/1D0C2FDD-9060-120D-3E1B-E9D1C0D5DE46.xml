@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D0C2FDD-9060-120D-3E1B-E9D1C0D5DE46" name="Solicitud">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>8E6701D7-D8C0-CAB3-C93E-87EB8172DBA9</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSolicitud" id="82B239B4-263E-3155-4AE2-4DDAD20FD4DE">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>C91D4D8C-915D-2E9D-D43F-91A17CF76596</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaSolic" id="EBF7F624-0EAF-949D-05E4-29984D350790">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>71E698DF-5CF3-B553-BD7E-1B98DC0988D5</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DireccionSol" id="68A5CA79-EACF-65E7-8FD3-AEE722461E8E">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>54B85C87-D56D-D6A7-3437-697323415ECB</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComunaSol" id="F5768760-9164-2B98-BDA6-672A14DBD269">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>3EB5CFF1-F8B6-E58D-3309-DEDA9E8D3CF9</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoSol_idEstadoSol" id="3D65FC35-5A13-AC25-D29F-979B863E67F9">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>B78C9A8B-EF15-166E-32DB-8FC257DDEC2A</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4CB7981-497B-046B-FD6B-00F54A0EC129" referredColumn="DB2F96E2-E24C-53F0-F537-589B5F258D57"/>
+</associations>
+</Column>
+<Column name="PagoSol_idPago" id="D1F5D587-0A78-DE50-5D50-5F3FF60BF2F7">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>351F18D4-357F-52B0-6659-621ECDADD7A1</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30BF3324-C666-A54C-051F-B6133E8EB1B7" referredColumn="2D9CA491-2C29-92E2-5B4A-4FE9AB7D53B0"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="A7164A1F-BA06-50B8-56BC-69DD7452827F">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>0615D753-AC3D-5314-47C9-022295CA37C1</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D291538-0E5C-70DD-90C0-1E430848403C" referredColumn="6CC6A62C-5E39-1DD1-39B9-1187FDD13DEB"/>
+</associations>
+</Column>
+<Column name="Cliente_idCliente" id="86561D93-80CD-36CE-7001-0A5146EE4021">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>205FF721-4B3B-2D26-F210-5E58B72AEB3C</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8B7DCD9-1989-E5AD-B0D2-FEE97A7CA354" referredColumn="4DE22D43-D2D2-D349-157A-53BB86E5F0AD"/>
+</associations>
+</Column>
+<Column name="FechaVisita" id="1F05A7CA-AD86-5B37-7065-630AA3EC10ED">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>8E2ACD59-17E5-0FB1-71F0-F40682170DAD</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56E107E1-D138-9F47-4C38-A7E3CC0FC3AD" name="Solicitud_PK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>9DDDE4F0-E72C-BD44-43FE-D6272E3894AD</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82B239B4-263E-3155-4AE2-4DDAD20FD4DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3495311C-B7CE-903E-F99C-580E59B4FDB0" name="Solicitud_EstadoSol_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>689913CB-C305-3151-F4BA-13ECF125A050</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D65FC35-5A13-AC25-D29F-979B863E67F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08A4D67B-3F49-7530-D50C-7CFB566897FB" name="Solicitud_PagoSol_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>F70A3BBC-4CC2-2130-6D41-FB6D05DA6BB1</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1F5D587-0A78-DE50-5D50-5F3FF60BF2F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F87593D9-8B40-8916-5F26-EE7D3F19A972" name="Solicitud_Empleado_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>98CAB5DC-90FD-3F2B-C83B-B206EE2A697B</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7164A1F-BA06-50B8-56BC-69DD7452827F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF5A5334-A67E-9B86-B13C-B86800DF98BE" name="Solicitud_Cliente_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>0AFE3026-ABB0-2888-A379-3884DBB29C75</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86561D93-80CD-36CE-7001-0A5146EE4021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

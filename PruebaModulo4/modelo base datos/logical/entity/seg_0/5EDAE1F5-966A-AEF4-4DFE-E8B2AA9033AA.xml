@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EDAE1F5-966A-AEF4-4DFE-E8B2AA9033AA" name="EstadoSol">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:28:39 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEstadoSol" id="14129B73-7647-67D9-5C1C-EB47FDF24D68">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:28:49 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombSol" id="B9E87DC9-A2F6-65B9-6AEA-1740003E80B8">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:29:02 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F77AD05B-F404-52AC-1A08-70A0E061D20B" name="EstadoSol PK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:29:01 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14129B73-7647-67D9-5C1C-EB47FDF24D68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

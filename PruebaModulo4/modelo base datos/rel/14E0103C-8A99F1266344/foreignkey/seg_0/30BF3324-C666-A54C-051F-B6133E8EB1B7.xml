@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="30BF3324-C666-A54C-051F-B6133E8EB1B7" containerWithKeyObject="1D0C2FDD-9060-120D-3E1B-E9D1C0D5DE46" localFKIndex="08A4D67B-3F49-7530-D50C-7CFB566897FB" name="Solicitud_PagoSol_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>F70A3BBC-4CC2-2130-6D41-FB6D05DA6BB1</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<referredTableLongName>PagoSol</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3877019C-E4F0-F61D-AF9C-280EAC1AAF46</referredTableID>
+<keyObject>1F995C6C-A054-A9FF-CB12-189E770C06C4</keyObject>
+<referredKeyID>1F995C6C-A054-A9FF-CB12-189E770C06C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

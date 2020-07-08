@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E6701D7-D8C0-CAB3-C93E-87EB8172DBA9" name="Solicitud">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:25:34 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idSolicitud" id="C91D4D8C-915D-2E9D-D43F-91A17CF76596">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:25:42 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaSolic" id="71E698DF-5CF3-B553-BD7E-1B98DC0988D5">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:25:57 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DireccionSol" id="54B85C87-D56D-D6A7-3437-697323415ECB">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:27:18 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ComunaSol" id="3EB5CFF1-F8B6-E58D-3309-DEDA9E8D3CF9">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:27:55 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEstadoSol" id="B78C9A8B-EF15-166E-32DB-8FC257DDEC2A">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:29:32 UTC</createdTime>
+<generatorID>689913CB-C305-3151-F4BA-13ECF125A050</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<referedAttribute>14129B73-7647-67D9-5C1C-EB47FDF24D68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPago" id="351F18D4-357F-52B0-6659-621ECDADD7A1">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:31:12 UTC</createdTime>
+<generatorID>F70A3BBC-4CC2-2130-6D41-FB6D05DA6BB1</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<referedAttribute>AB288BD4-5337-2139-C347-D4E987E72B32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="0615D753-AC3D-5314-47C9-022295CA37C1">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:44:42 UTC</createdTime>
+<generatorID>98CAB5DC-90FD-3F2B-C83B-B206EE2A697B</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<referedAttribute>137A9899-2441-B379-7256-9E23F39D6EF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="205FF721-4B3B-2D26-F210-5E58B72AEB3C">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:45:17 UTC</createdTime>
+<generatorID>0AFE3026-ABB0-2888-A379-3884DBB29C75</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<referedAttribute>E75F3404-6D45-8416-F2CA-AEA32A776DFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaVisita" id="8E2ACD59-17E5-0FB1-71F0-F40682170DAD">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:06:11 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DDDE4F0-E72C-BD44-43FE-D6272E3894AD" name="Solicitud PK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 01:25:55 UTC</createdTime>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<engineerTo>
+<item key="14E0103C-5D41-B397-9036-8A99F1266344" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C91D4D8C-915D-2E9D-D43F-91A17CF76596</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4CB7981-497B-046B-FD6B-00F54A0EC129" containerWithKeyObject="1D0C2FDD-9060-120D-3E1B-E9D1C0D5DE46" localFKIndex="3495311C-B7CE-903E-F99C-580E59B4FDB0" name="Solicitud_EstadoSol_FK">
+<createdBy>HP</createdBy>
+<createdTime>2020-07-01 02:11:24 UTC</createdTime>
+<generatorID>689913CB-C305-3151-F4BA-13ECF125A050</generatorID>
+<ownerDesignName>modelo base datos</ownerDesignName>
+<referredTableLongName>EstadoSol</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DAD3A85A-BB0B-934E-C36F-01BD3141F584</referredTableID>
+<keyObject>3EA8AFD1-E834-E8CB-C334-86E3A0C9985A</keyObject>
+<referredKeyID>3EA8AFD1-E834-E8CB-C334-86E3A0C9985A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idEstadoSol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
